@@ -239,3 +239,4 @@ async def delete_alert(
         raise HTTPException(status_code=404, detail="Alert do not exist")
     except Exception:
         raise HTTPException(status_code=404, detail="error")
+#test
